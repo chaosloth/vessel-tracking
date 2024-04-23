@@ -48,6 +48,9 @@ export default function Home() {
     `&store_pos=true` +
     `&ra=${encodeURIComponent("testingonly")}`;
 
+  // The above will also be used for MarineTraffic, e.g.:
+  // https://www.marinetraffic.com/en/ais/details/ships/shipid:6909911/mmsi:512009491/imo:0
+
   return (
     <CustomizationProvider baseTheme="default" style={{ height: "100vh" }}>
       <Box minWidth="size80">
@@ -61,7 +64,7 @@ export default function Home() {
               variant={"secondary"}
               onClick={() =>
                 window.open(
-                  `https://www.marinetraffic.com/en/ais/details/ships/shipid:6909911/mmsi:${mmsi}/imo:${imo}/vessel:SVANIKA`,
+                  `https://www.marinetraffic.com/en/ais/details/ships/shipid:6909911/mmsi:${mmsi}/imo:${imo}`,
                   "_blank"
                 )
               }
