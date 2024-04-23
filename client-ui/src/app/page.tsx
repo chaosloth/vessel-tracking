@@ -61,7 +61,7 @@ export default function Home() {
               variant={"secondary"}
               onClick={() =>
                 window.open(
-                  "https://www.marinetraffic.com/en/ais/details/ships/shipid:6909911/mmsi:512009491/imo:0/vessel:SVANIKA",
+                  `https://www.marinetraffic.com/en/ais/details/ships/shipid:6909911/mmsi:${mmsi}/imo:${imo}/vessel:SVANIKA`,
                   "_blank"
                 )
               }

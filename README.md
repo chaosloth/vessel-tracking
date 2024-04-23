@@ -5,6 +5,12 @@ It uses [vesselfinder.com](https://vesselfinder.com) to embed an iFrame, passing
 
 The build scripts package up the application as an export so that it may be hosted on any web server, like Twilio Serverless.
 
+### Demo
+Here is the the page is it should appear showing the embedded map, at the top right corner is a link to the same vessel on [Marine Traffic](https://marinetraffic.com)
+
+
+![Example](/docs/demo-vessel-tracking.png) 
+
 ### Configuration parameters
 
 See the `src/page.tsx` for information. The following properties will be passed through
